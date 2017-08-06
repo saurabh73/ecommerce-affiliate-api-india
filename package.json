@@ -1,6 +1,6 @@
 {
   "name": "ecommerce-affiliate-api-india",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of affiliate api for indian ecommerce sites. Supports flipkart, ebay, amazon and snapdeal",
   "main": "index.js",
   "scripts": {
