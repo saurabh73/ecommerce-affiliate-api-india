@@ -26,6 +26,7 @@
   "author": "Saurabh Dutta <saurabhdutta.jk@gmail.com> (http://saurabh73.github.io/resume)",
   "license": "ISC",
   "dependencies": {
+    "amazon-product-api": "^0.4.4",
     "ebay-api": "^1.13.7",
     "lodash": "^4.17.4",
     "request": "^2.81.0",
