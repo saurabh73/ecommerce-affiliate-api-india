@@ -2,6 +2,8 @@
 
 const flipkartApi = require('./lib/flipkart-api');
 const snapdealApi = require('./lib/snapdeal-api');
+const ebayApi = require('./lib/ebay-api');
+const amazonApi = require('./lib/amazon-api');
 
 module.exports = {
     createFlipkartClient: function (credentials) {
@@ -17,5 +19,18 @@ module.exports = {
         return {
             searchByKeyword: snapdealApi.callSnapdealSearchAPI(credentials)
         }
+    },
+
+    createEbayClient: function (credentials) {
+        return {
+            searchByKeyword: ebayApi.callEbayAPI(credentials)
+        }
+    }, 
+
+    createAmazonClient : function (credentials) {
+        return {
+            searchByKeyword: amazonApi.callAmazonAPI(credentials)
+        }
     }
+
 }
